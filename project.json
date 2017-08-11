@@ -1,0 +1,16 @@
+{
+    "frameworks": {
+        "net46": {
+            "dependencies": {
+                "Microsoft.Azure.DocumentDB": "1.14.0",
+                "Microsoft.Azure.Graphs": "0.2.2-preview",
+                "Newtonsoft.Json": "6.0.8",
+                "System.Collections": "4.0.0",
+                "System.Collections.Immutable": "1.1.37",
+                "System.Globalization": "4.0.0",
+                "System.Linq": "4.0.0",
+                "System.Threading": "4.0.0"
+            }
+        }
+    }
+}
