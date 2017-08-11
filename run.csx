@@ -25,8 +25,8 @@ public static async Task<HttpResponseMessage> Run(HttpRequestMessage req, TraceW
     // Set name to query string or body data
     command = command ?? data?.command;
 
-    var endpoint="https://tiarchitecturegraphdb.documents.azure.com:443/";
-    var authKey="umgF4InnCbGQVpam7ey6AMxbYYolZjJeNrpVqIbwP2gJ16t4LkoKOJndKKl4DJPKKrR39WhthSxl3wHzDb39NQ==";
+    var endpoint="https://{endpoint}:443/";
+    var authKey="authkey";
     CosmosDBConnectionParameters connectionParams = new CosmosDBConnectionParameters
             {
                 AuthKey = authKey,
